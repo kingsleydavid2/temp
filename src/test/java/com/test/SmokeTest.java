@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 
 import com.core.BaseTest;
-import com.pages.FlipkartLoginPage;
+//import com.pages.FlipkartLoginPage;
 import com.pages.LinikedInLoginPage;
 
 public class SmokeTest extends BaseTest {
@@ -22,9 +22,9 @@ public class SmokeTest extends BaseTest {
 		
 				LinikedInLoginPage.checkbox();	
 				
-				driver.navigate().to("https://accounts.google.com/signin/v2/identifier");
+				//driver.navigate().to("https://accounts.google.com/signin/v2/identifier");
 				Thread.sleep(3000);
-				FlipkartLoginPage.login1("kingsleydavid7@gmail.com", "kingdave123");
+				//FlipkartLoginPage.login1("kingsleydavid7@gmail.com", "kingdave123");
 				
 		
 		// driver.navigate().to("http://linkedin.com");

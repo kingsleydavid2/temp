@@ -8,7 +8,7 @@ public class WrapperMethods extends BaseTest {
 
 	public static void sendkeys(String value) {
 		WIApageelements.userName.sendKeys(value);
-		WIApageelements1.userName.sendKeys(value);
+		//WIApageelements1.userName.sendKeys(value);
 		
 	}
 	
